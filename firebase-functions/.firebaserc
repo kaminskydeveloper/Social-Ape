@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "socialape-921a1"
+    "default": "socialape-921a1",
+    "socialape": "socialape-921a1"
   }
 }
