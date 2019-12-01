@@ -82,7 +82,7 @@ class Profile extends Component {
                 component={Link}
                 to={`/users/${handle}`}
                 color="primary"
-                variant="5"
+                variant="h5"
               >
                 @{handle}
               </MuiLink>
