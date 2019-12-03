@@ -57,6 +57,11 @@ class App extends Component {
                     component={signup}
                   ></AuthRoute>
                   <Route exact path="/users/:handle" component={user}></Route>
+                  <Route
+                    exact
+                    path="/users/:handle/scream/:screamId"
+                    component={user}
+                  />
                 </Switch>
               </div>
             </Router>
